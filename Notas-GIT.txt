@@ -5,9 +5,15 @@ $ git config --global user.email "albert_dge@hotmail.com"
 Then we tell Git to make planets a repository – a place where Git can store versions of our files:
 Dentro de la caperta que queremos repositar
 $ git init
+
 If we use ls to show the directory’s contents, it appears that nothing has changed:
 $ ls
+
 But if we add the -a flag to show everything, we can see that Git has created a hidden directory within planets called .git:
 $ ls -a
+
 We can check that everything is set up correctly by asking Git to tell us the status of our project:
 $ git status
+
+Para agregar archivos al repositorio usamos
+$ git add Notas-GIT.txt
