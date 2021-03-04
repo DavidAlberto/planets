@@ -17,3 +17,23 @@ $ git status
 
 Para agregar archivos al repositorio usamos
 $ git add Notas-GIT.txt
+
+Para indicar que se le hizo a ese cambio 
+$ git commit -m "Continua las modificaciones"
+
+Para que me diga que se ha hecho y quien lo hizo
+$ git log
+commit fd739ab6d829bdbccae4e22b71af27da5ed9e400 (HEAD -> master)
+Author: DavidAlberto <albert_dge@hotmail.com>                                                         
+Date:   Wed Mar 3 17:52:06 2021 -0600                                                                                                                                                                           
+	Cotinua las modificaciones                                                                                                                                                                              
+commit d1b7fd7e003a9e9e0fe2e22fc3005d8ac9082969                                                       
+Author: DavidAlberto <albert_dge@hotmail.com>                                                         
+Date:   Wed Mar 3 17:51:20 2021 -0600                                                                                                                                                                           
+	Cotinua las modificaciones
+	
+Despues de hacer modifiaciones de un archivo, es conveniente 
+usar el "git status" y te va decir que archivo se modificó, despues usar 
+"git add ____________" del archivo modificado, y posteriormente 
+usar "git commint -m "__________"" para indicar que le modificaste 
+hasta ese momento.
