@@ -35,5 +35,13 @@ Date:   Wed Mar 3 17:51:20 2021 -0600
 Despues de hacer modifiaciones de un archivo, es conveniente 
 usar el "git status" y te va decir que archivo se modificó, despues usar 
 "git add ____________" del archivo modificado, y posteriormente 
-usar "git commint -m "__________"" para indicar que le modificaste 
+usar "git commit -m "__________"" para indicar que le modificaste 
 hasta ese momento.
+
+
+https://swcarpentry.github.io/git-novice/04-changes/index.html
+
+
+https://swcarpentry.github.io/git-novice/05-history/index.html
+
+git graph
